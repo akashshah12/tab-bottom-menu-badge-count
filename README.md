@@ -1,6 +1,6 @@
 Tab bottom menu badge count change using react react-native-event-listeners - npm
 
-**Installation Package**
+## **Installation Package**
 
 npm install --save react-native-event-listeners
 
@@ -11,11 +11,11 @@ yarn add react-native-event-listeners
 import { EventRegister } from 'react-native-event-listeners'
  
 
-**Example**
+## **Example**
 
 /*  RECEIVER COMPONENT */
 
-class Receiver extends PureComponent {
+```class Receiver extends PureComponent {
     constructor(props) {
         super(props)
         
@@ -39,16 +39,17 @@ class Receiver extends PureComponent {
     render() {
         return <Text>{this.state.data}</Text>
     }
-}
+}```
  
 /* SENDER COMPONENT */
 
-const Sender = (props) => (
+```const Sender = (props) => (
     <TouchableHighlight
         onPress={() => {
             EventRegister.emit('myCustomEvent', 'it works!!!')
         })
     ><Text>Send Event</Text></TouchableHighlight>
+```
     
 Using above sample example, different files are added to demonstrate how we can achieve badge increment on clicking on the add to cart button on product listing page
 
