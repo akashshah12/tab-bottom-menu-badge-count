@@ -13,9 +13,7 @@ import { EventRegister } from 'react-native-event-listeners'
 
 **Example**
 
-/*
- * RECEIVER COMPONENT
- */
+/*  RECEIVER COMPONENT */
 
 class Receiver extends PureComponent {
     constructor(props) {
@@ -43,9 +41,7 @@ class Receiver extends PureComponent {
     }
 }
  
-/*
- * SENDER COMPONENT
- */
+/* SENDER COMPONENT */
 
 const Sender = (props) => (
     <TouchableHighlight
