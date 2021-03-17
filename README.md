@@ -45,7 +45,8 @@ or
  
 /* SENDER COMPONENT */
 
-```const Sender = (props) => (
+```
+const Sender = (props) => (
     <TouchableHighlight
         onPress={() => {
             EventRegister.emit('myCustomEvent', 'it works!!!')
