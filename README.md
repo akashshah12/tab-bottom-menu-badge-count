@@ -2,13 +2,13 @@ Tab bottom menu badge count change using react react-native-event-listeners - np
 
 ## **Installation Package**
 
-npm install --save react-native-event-listeners
+```npm install --save react-native-event-listeners```
 
 or
 
-yarn add react-native-event-listeners
+```yarn add react-native-event-listeners```
 
-import { EventRegister } from 'react-native-event-listeners'
+```import { EventRegister } from 'react-native-event-listeners'```
  
 
 ## **Example**
@@ -39,7 +39,8 @@ import { EventRegister } from 'react-native-event-listeners'
     render() {
         return <Text>{this.state.data}</Text>
     }
-}```
+}
+```
  
 /* SENDER COMPONENT */
 
