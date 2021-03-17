@@ -52,6 +52,7 @@ const Sender = (props) => (
             EventRegister.emit('myCustomEvent', 'it works!!!')
         })
     ><Text>Send Event</Text></TouchableHighlight>
+)
 ```
     
 Using above sample example, different files are added to demonstrate how we can achieve badge increment on clicking on the add to cart button on product listing page
