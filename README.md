@@ -8,10 +8,11 @@ or
 
 ```yarn add react-native-event-listeners```
 
-```import { EventRegister } from 'react-native-event-listeners'```
- 
 
 ## **Example**
+
+```import { EventRegister } from 'react-native-event-listeners'```
+ 
 
 /*  RECEIVER COMPONENT */
 
